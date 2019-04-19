@@ -1,11 +1,11 @@
 const path = require("path");
 const router = require("express").Router();
-const apiRoutes = require("./api");
+//const apiRoutes = require("./api");
 const passport = require("passport");
 
 
 // API Routes
-router.use("/api", apiRoutes);
+//router.use("/api", apiRoutes);
 
 /* GET Google Authentication API. */
 router.get(
