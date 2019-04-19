@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Books from "./pages/Books";
-import Detail from "./pages/Detail";
-import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
 import queryString from "query-string"
 
@@ -22,12 +19,9 @@ class App extends Component {
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Books} />
-          <Route exact path="/books" component={Books} />
-          <Route exact path="/books/:id" component={Detail} />
-          <Route component={NoMatch} />
+
         </Switch>
-        <a href="http://localhost:3001/auth/google" class="button">
+        <a href="http://localhost:4000/auth/google" class="button">
           <div>
             <span class="svgIcon t-popup-svg">
               <svg

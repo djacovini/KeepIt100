@@ -12,7 +12,7 @@ passport.use(
   {
    clientID: "579057114129-836cah0isddulig0gufc1ucbscrd3shq.apps.googleusercontent.com",
    clientSecret: "gHzB9GA0hOcYzdWqhdAHUjsL",
-   callbackURL: "http://localhost:3001/auth/google/callback"
+   callbackURL: "http://localhost:4000/auth/google/callback"
   },
   function(accessToken, refreshToken, profile, done) {
    var userData = {
@@ -26,5 +26,5 @@ passport.use(
 );
 
 // Exporting our configured passport
-//module.exports = passport;
+module.exports = passport;
 
