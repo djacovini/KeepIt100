@@ -4,6 +4,7 @@ const router = require("express").Router();
 const passport = require("passport");
 
 
+
 // API Routes
 //router.use("/api", apiRoutes);
 
@@ -17,7 +18,7 @@ router.get(
   passport.authenticate("google", { failureRedirect: "/", session: false }),
   function(req, res) {
       var token = req.user.token;
-      res.redirect("http://localhost:3000?token=" + token);
+      res.redirect("https://keep-it-100.herokuapp.com?token=" + token);
   }
 );
 

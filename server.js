@@ -6,6 +6,14 @@ const app = express();
 const db = require("./models");
 const PORT = process.env.PORT || 4000;
 
+//try to fix google redirect
+app.set("view engine", "ejs")
+app.get("/", (req,res) => {
+  res.render("about")
+})
+
+
+
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
