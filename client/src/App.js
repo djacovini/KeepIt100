@@ -26,7 +26,7 @@ class App extends Component {
           <Route exact path="/map" component={MapPage} />
           <Route exact path="/calc" component={CalcPage} /> */}
         </Switch>
-        <a href="https://keep-it-100.herokuapp.com/auth/google" class="button">
+        <a href="/auth/google" class="button">
           <div>
             <span class="svgIcon t-popup-svg">
               <svg
