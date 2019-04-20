@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
+import LandingPage from "./pages/LandingPage";
+import MapPage from "./pages/MapPage";
+import CalcPage from "./pages/CalcPage";
 import queryString from "query-string"
 
 
@@ -19,9 +22,11 @@ class App extends Component {
       <div>
         <Nav />
         <Switch>
-
+        {/* <Route exact path="/" component={LandingPage} />
+          <Route exact path="/map" component={MapPage} />
+          <Route exact path="/calc" component={CalcPage} /> */}
         </Switch>
-        <a href="http://localhost:4000/auth/google" class="button">
+        <a href="https://keep-it-100.herokuapp.com/auth/google" class="button">
           <div>
             <span class="svgIcon t-popup-svg">
               <svg
