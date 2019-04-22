@@ -61,40 +61,40 @@ Services.defaultProps = {
     servicesData: [
         {
             icon: "icofont-automation",
-            heading: "Creative Solutions",
+            heading: "Calculate Your Own Score",
             description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+                "Track the places you spend to see how transparent your money is."
         },
-        {
-            icon: "icofont-bullseye",
-            heading: "Excellent Features",
-            description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
-        },
-        {
-            icon: "icofont-woman-in-glasses",
-            heading: "Friendly Support",
-            description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
-        },
+        // {
+        //     icon: "icofont-bullseye",
+        //     heading: "Excellent Features",
+        //     description:
+        //         "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+        // },
+        // {
+        //     icon: "icofont-woman-in-glasses",
+        //     heading: "Friendly Support",
+        //     description:
+        //         "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+        // },
         {
             icon: "icofont-chart-growth",
-            heading: "SEO & Advertising",
+            heading: "Charts and Graphs",
             description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+                "Visualize and compare the scores of you favorite places of business."
         },
         {
             icon: "icofont-network-tower",
-            heading: "Marketing & Consulting",
+            heading: "Map",
             description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+                "Check out how transparent your local business' decide to be."
         },
-        {
-            icon: "icofont-laptop-alt",
-            heading: "Design & Development",
-            description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
-        },
+        // {
+        //     icon: "icofont-laptop-alt",
+        //     heading: "Design & Development",
+        //     description:
+        //         "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+        // },
     ]
 };
 

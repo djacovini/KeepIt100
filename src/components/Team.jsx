@@ -94,7 +94,7 @@ Team.defaultProps = {
         teamsData: [
         {
             Image: require("../assets/img/team-one.jpg"),
-            Name: "Williamson",
+            Name: "Eric Capone",
             Profession: "Web Developer",
             facebookLink: "/#0",
             linkedinLink: "/#0",
@@ -102,28 +102,28 @@ Team.defaultProps = {
         },
         {
             Image: require("../assets/img/team-two.jpg"),
-            Name: "Jone Doy",
-            Profession: "Designer",
+            Name: "David Jacovini",
+            Profession: "Web Developer",
             facebookLink: "/#0",
             linkedinLink: "/#0",
             twitterLink: "/#0",
         },
         {
             Image: require("../assets/img/team-three.jpg"),
-            Name: "Oliver",
-            Profession: "Photographer",
+            Name: "Andrew Mayo",
+            Profession: "Web Developer",
             facebookLink: "/#0",
             linkedinLink: "/#0",
             twitterLink: "/#0",
         },
-        {
-            Image: require("../assets/img/team-two.jpg"),
-            Name: "Mark Jone",
-            Profession: "CEO",
-            facebookLink: "/#0",
-            linkedinLink: "/#0",
-            twitterLink: "/#0",
-        },
+        // {
+        //     Image: require("../assets/img/team-two.jpg"),
+        //     Name: "Mark Jone",
+        //     Profession: "CEO",
+        //     facebookLink: "/#0",
+        //     linkedinLink: "/#0",
+        //     twitterLink: "/#0",
+        // },
         
     ]
 };

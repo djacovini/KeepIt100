@@ -24,8 +24,8 @@ class About extends Component {
                         <div className="col-lg-8 offset-lg-2 text-center">
                             <ScrollAnimation animateIn="fadeInUp">
                                 <div className="section-title">
-                                    <h2>{this.props.sectionTitle}</h2>
-                                    <p>{this.props.sectionDescription}</p>
+                                    <h2>About Us</h2>
+                                    <p>We decided to make an application to expose those companies who decide to be transparent with the public about their political spending.</p>
                                     <span className="section-title-bg">{this.props.SectionbgTitle}</span>
                                 </div>
                             </ScrollAnimation>
@@ -56,36 +56,36 @@ About.defaultProps = {
     sectionDescription:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
         aboutsData: [
-        {
-            Icon: "icofont-binoculars",
-            title: "Backgrounds",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        },
+        // {
+        //     Icon: "icofont-binoculars",
+        //     title: "Backgrounds",
+        //     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        // },
         {
             Icon: "icofont-direction-sign",
             title: "Our Approach",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            content: "Our idea was to bring to light an important topic that not too many people know about. This, to us, is an important discussion that we felt could have been covered better than some sites do. We hope to make this information in this more understandable to the public and create a more visual experience.",
         },
-        {
-            Icon: "icofont-thermometer",
-            title: "Methodology",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        },
+        // {
+        //     Icon: "icofont-thermometer",
+        //     title: "Methodology",
+        //     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        // },
         {
             Icon: "icofont-users-social",
-            title: "Our Rich Experience",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            title: "Public Discussion",
+            content: "Most of our own members didn't know this existsed let alone ever had a discussion about political transparency in the business world. Our hope is to have this be a more diuscussable topic for those who dont have the time or energy to invest in the political/financial world.                                    ",
         },
         {
             Icon: "icofont-money",
             title: "Value for Money",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            content: "The money that you and all others spend have the potential to influence political parties and members. Understanding this is a big part of the public discussion and without knowing who gives your money spent to specific political parties it can be very difficult to make your dollars count for what you value.",
         },
-        {
-            Icon: "icofont-unique-idea",
-            title: "Flexible Development",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        },
+        // {
+        //     Icon: "icofont-unique-idea",
+        //     title: "Flexible Development",
+        //     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        // },
     ]
 };
 
