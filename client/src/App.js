@@ -26,7 +26,7 @@ class App extends Component {
           <Route exact path="/map" component={MapPage} />
           <Route exact path="/calc" component={CalcPage} /> */}
         </Switch>
-        <a href="/auth/google" class="button">
+        <a href="http://localhost:4000/auth/google" class="button">
           <div>
             <span class="svgIcon t-popup-svg">
               <svg

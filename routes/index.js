@@ -18,7 +18,7 @@ router.get(
   passport.authenticate("google", { failureRedirect: "/", session: false }),
   function(req, res) {
       var token = req.user.token;
-      res.redirect("https://keep-it-100.herokuapp.com?token=" + token);
+      res.redirect("http://localhost:3000/?token=" + token);
   }
 );
 
