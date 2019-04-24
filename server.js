@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === "production") {
 // require("./config/passport");
 
 // Add routes, both API and view
-app.use(routes);
+// app.use(routes);
 
 var syncOptions = { force: false };
 
