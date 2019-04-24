@@ -7,7 +7,8 @@ import React, { Component } from "react";
 // import queryString from "query-string";
 
 //? === FIRST IMPORTS FOR TEMPLATE ===
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+//! = removed BrowserRouter from import below =
+import { Route, Switch, Redirect } from 'react-router-dom';
 import Page from "react-page-loading";
 import { CSSTransition } from "react-transition-group";
 
