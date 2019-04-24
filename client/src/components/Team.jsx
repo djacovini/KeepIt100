@@ -90,11 +90,11 @@ Team.defaultProps = {
     SectionbgTitle: "Team",
     sectionTitle: "Our Team",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "Talk about how  we came up with the idea here...",
         teamsData: [
         {
             Image: require("../assets/img/team-one.jpg"),
-            Name: "Williamson",
+            Name: "David Jacovini",
             Profession: "Web Developer",
             facebookLink: "/#0",
             linkedinLink: "/#0",
@@ -102,16 +102,16 @@ Team.defaultProps = {
         },
         {
             Image: require("../assets/img/team-two.jpg"),
-            Name: "Jone Doy",
-            Profession: "Designer",
+            Name: "Eric Capone",
+            Profession: "Web Developer",
             facebookLink: "/#0",
             linkedinLink: "/#0",
             twitterLink: "/#0",
         },
         {
             Image: require("../assets/img/team-three.jpg"),
-            Name: "Oliver",
-            Profession: "Photographer",
+            Name: "Andrew Mayo",
+            Profession: "Web Developer",
             facebookLink: "/#0",
             linkedinLink: "/#0",
             twitterLink: "/#0",

@@ -54,38 +54,38 @@ About.defaultProps = {
     SectionbgTitle: "About",
     sectionTitle: "About Us",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "A short description about our goals and stuff....",
         aboutsData: [
-        {
-            Icon: "icofont-binoculars",
-            title: "Backgrounds",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        },
+        // {
+        //     Icon: "icofont-binoculars",
+        //     title: "Backgrounds",
+        //     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        // },
         {
             Icon: "icofont-direction-sign",
             title: "Our Approach",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            content: "Talk about our goals with this project...",
         },
         {
             Icon: "icofont-thermometer",
             title: "Methodology",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            content: "Talk about the way in which we approach this project...",
         },
-        {
-            Icon: "icofont-users-social",
-            title: "Our Rich Experience",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        },
+        // {
+        //     Icon: "icofont-users-social",
+        //     title: "Our Rich Experience",
+        //     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        // },
         {
             Icon: "icofont-money",
             title: "Value for Money",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            content: "Talk about how people should get the most value for their money...",
         },
-        {
-            Icon: "icofont-unique-idea",
-            title: "Flexible Development",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        },
+        // {
+        //     Icon: "icofont-unique-idea",
+        //     title: "Flexible Development",
+        //     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        // },
     ]
 };
 

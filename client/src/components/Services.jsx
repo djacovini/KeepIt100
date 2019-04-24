@@ -63,37 +63,37 @@ Services.defaultProps = {
             icon: "icofont-automation",
             heading: "Creative Solutions",
             description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+                "Talk about the calculator here."
         },
-        {
-            icon: "icofont-bullseye",
-            heading: "Excellent Features",
-            description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
-        },
-        {
-            icon: "icofont-woman-in-glasses",
-            heading: "Friendly Support",
-            description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
-        },
+        // {
+        //     icon: "icofont-bullseye",
+        //     heading: "Excellent Features",
+        //     description:
+        //         "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+        // },
+        // {
+        //     icon: "icofont-woman-in-glasses",
+        //     heading: "Friendly Support",
+        //     description:
+        //         "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+        // },
         {
             icon: "icofont-chart-growth",
             heading: "SEO & Advertising",
             description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+                "Talk about graphs and charts here."
         },
-        {
-            icon: "icofont-network-tower",
-            heading: "Marketing & Consulting",
-            description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
-        },
+        // {
+        //     icon: "icofont-network-tower",
+        //     heading: "Marketing & Consulting",
+        //     description:
+        //         "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+        // },
         {
             icon: "icofont-laptop-alt",
             heading: "Design & Development",
             description:
-                "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+                "Talk about react and technologies used for this app."
         },
     ]
 };

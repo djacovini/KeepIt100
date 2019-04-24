@@ -74,9 +74,9 @@ Partners.propTypes = {
 
 //Default Props
 Partners.defaultProps = {
-    SectionbgTitle: "Partners",
-    sectionTitle: "Our Partners",
-    sectionDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+    SectionbgTitle: "Clarity",
+    sectionTitle: "Higher Ranking Business'",
+    sectionDescription: "Here is a suggested list of the most financially transparent companies that we'd recommend",
     partnersData: [
         {
             partnerLogo: require("../assets/img/partners-logo/img1.png"),
