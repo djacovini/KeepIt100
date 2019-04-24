@@ -9,25 +9,25 @@ const passport = require("passport");
 //router.use("/api", apiRoutes);
 
 /* GET Google Authentication API. */
-router.get(
-  "/auth/google",
-  passport.authenticate("google", { scope: ["profile", "email"] })
-);
-router.get(
-  "/auth/google/callback",
-  passport.authenticate("google", { failureRedirect: "/", session: false }),
-  function(req, res) {
-      var token = req.user.token;
-      res.redirect("http://localhost:3000/?token=" + token);
-  }
-);
+// router.get(
+//   "/auth/google",
+//   passport.authenticate("google", { scope: ["profile", "email"] })
+// );
+// router.get(
+//   "/auth/google/callback",
+//   passport.authenticate("google", { failureRedirect: "/", session: false }),
+//   function(req, res) {
+//       var token = req.user.token;
+//       res.redirect("http://localhost:3000/?token=" + token);
+//   }
+// );
 
-// If no API routes are hit, send the React app
-router.use(function(req, res) {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
-});
-
-
+// // If no API routes are hit, send the React app
+// router.use(function(req, res) {
+//   res.sendFile(path.join(__dirname, "../client/build/index.html"));
+// });
 
 
-module.exports = router;
+
+
+// module.exports = router;
