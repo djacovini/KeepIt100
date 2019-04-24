@@ -1,0 +1,138 @@
+/*
+ Default: #ed1c24;
+ */ 
+
+ h2, a:focus {
+    color: #ed1c24;
+}
+.button, .center-wrap button button {
+	border: 1px solid #ed1c24;
+    background-color: #ed1c24;
+}
+.plan .button:hover {
+	border-color: #ed1c24;
+}
+.plan .button a, .glyph i {
+	color: #ed1c24;
+}
+
+.plan.featured .button {
+	background-color: #ed1c24;
+}
+.social-icons ul li a:hover {
+	background-color: #ed1c24;
+} 
+.navbar-light .navbar-nav > .nav-item:hover,
+.navbar-light .navbar-nav > .nav-item:active {
+	background-color: #e74c14;
+}
+
+.owl-thumb-item i {
+    color: #ed1c24;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	background-color: #e74c14 !important;
+}
+
+.navbar-light.fixed-top, .search-modal, .home-video-area::before, .owl-thumb-item.active, .owl-thumb-item:hover {
+    background-color: #ed1c24;
+}
+.navbar-light.fixed-top {
+    background-color: #fe5619 !important;
+}
+.filter-menu button.programs-filter-btn-active, .filter-menu button:hover {
+	background-color: #ed1c24;
+}
+.work-details .icon li a, .team-box .title, .team-box .icon li a, .team-slides .owl-nav div {
+	color: #fe5619 !important;
+}
+.team-box .icon li a:hover {
+	background: #ed1c24;
+}
+.date-box {
+	background-color: #ed1c24;
+}
+.blog-item:hover .title-meta h2 a {
+    color: #ed1c24;
+}
+.post-meta ul li a:hover {
+	color: #ed1c24;
+  }
+  .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color: #ed1c24;
+	border-color: #ed1c24;
+}
+.side-widget h3::before { 
+	background: #ed1c24;
+}
+.search-form .btn-default {
+	border-color: #ed1c24;
+	background: #ed1c24;
+}
+.side-widget .list-group li a:hover {
+	color: #ed1c24;
+}
+.single-post h4 a:hover {
+	color: #ed1c24;
+}
+.list-tags li a:hover {
+    background-color: #ed1c24;
+}
+.sharing-link ul li i:hover {
+    background-color: #ed1c24;
+}
+.content-box:hover .box-icon-effect-1a .box-icon i {
+    color: #ed1c24;
+}
+.work-details .box-content{
+	background: #ed1c24;
+}
+.comments-title::before {
+	background: #ed1c24;
+}
+.single-comment .reply:hover {
+	background-color: #ed1c24;
+}
+.video-area:before {
+	background: #ed1c24;
+}
+.plus, .post-meta ul li .fa {
+	color: #ed1c24;
+} 
+.plus:hover {
+	color: #ed1c24;
+}
+.tab-menu ul li.active a {
+	background-color: #ed1c24;
+}
+.plan.featured .listing-badges .featured {
+	color: #ed1c24;
+}
+.plan.featured .plan-price, .content-box.color-effect-1, .footer  {
+	background-color: #ed1c24;
+}
+.single-testimonial-item i, .partners-slides .owl-nav div {
+    color: #fe5619 !important;
+}
+.client-info h3, .testimonial-slides .owl-nav div {
+	color: #fe5619 !important;
+ }
+ .panel-title a:before, .panel-title a.collapsed:before {
+	color: #ed1c24;
+	border: 1px solid #ed1c24;
+}
+.social-icons.bottom ul li a {
+	background-color: #9e3610;
+}
+.social-icons.bottom ul li a:hover {
+    color: #9e3610;
+}
+.about-info i {
+    color:#ed1c24;
+}
+.about-info:hover {
+    background-color: #ed1c24;
+}
+.plan .btn-a {
+    color: #ed1c24;
+}
