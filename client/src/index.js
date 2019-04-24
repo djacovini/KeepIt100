@@ -2,6 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Route, BrowserRouter } from "react-router-dom";
+import * as serviceWorker from './serviceWorker';
 
 //? === IMPORT CSS AND APP ===
 import "./index.css";
