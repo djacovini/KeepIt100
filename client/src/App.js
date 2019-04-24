@@ -1,4 +1,4 @@
-// import React, { Component } from "react";
+import React, { Component } from "react";
 // // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Nav from "./components/Nav";
 // import LandingPage from "./pages/LandingPage";
@@ -100,7 +100,6 @@ export default App;
 //Package CSS
 // import "bootstrap/dist/css/bootstrap.css";
 // import "bootstrap/dist/js/bootstrap.min.js";
-// import "animate.css/animate.min.css";
 
 //Template CSS Style
 // import "../src/style.css";
