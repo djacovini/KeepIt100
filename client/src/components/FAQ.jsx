@@ -26,8 +26,26 @@ class FAQ extends Component {
                         <div className="faq-content">
                             <div className="row">
                                 <div className="content-box col-12">
+                                {/* https://docs.google.com/spreadsheets/d/1KT99Zipdi2zd2C7aGdLYGx3ZZ5xIlFLw6VIzatuSzic/edit?usp=sharing?range=A1:H497 */}
+                                
                                 <Chart
-                                width={'col-12'}
+                                chartType="BarChart"
+                                spreadSheetUrl="https://docs.google.com/spreadsheets/d/1KT99Zipdi2zd2C7aGdLYGx3ZZ5xIlFLw6VIzatuSzic/edit?usp=sharing"
+                                options={{
+                                    hAxis: {
+                                    format: 'short',
+                                    },
+                                    vAxis: {
+                                    format: 'long',
+                                    // format:'scientific'
+                                    // format:'long'
+                                    // format:'percent'
+                                    },
+                                }}
+                                rootProps={{ 'data-testid': '1' }}
+                                />
+                                {/* <Chart
+                                width={'col-12x'}
                                 height={'300px'}
                                 chartType="BarChart"
                                 loader={<div>Loading Chart</div>}
@@ -41,7 +59,7 @@ class FAQ extends Component {
                                 ]}
                                 options={{
                                     title: 'Population of Largest U.S. Cities',
-                                    chartArea: { width: '100%' },
+                                    chartArea: { width: '75%' },
                                     colors: ['#9800fd', '#62e2e2'],
                                     hAxis: {
                                     title: 'Total Population',
@@ -53,7 +71,7 @@ class FAQ extends Component {
                                 }}
                                 // For tests
                                 rootProps={{ 'data-testid': '1' }}
-                                />
+                                /> */}
                                 </div>
 
                                 <div className="col-lg-12">
@@ -126,7 +144,7 @@ FAQ.propTypes = {
 
 //Default Props
 FAQ.defaultProps = {
-    SectionbgTitle: "HOW COMPANIES RANK IN THE CPA-ZICKLIN INDEX",
+    SectionbgTitle: "SCORES",
     sectionTitle: "CPA-INDEX SCORE",
     sectionDescription:
         "The CPA-Zicklin Index of Corporate Political Disclosure and Accountability, developed in conjunction with the Zicklin Center for Business Ethics Research at the University of Pennsylvania's Wharton School, is the only measure of electoral spending transparency and accountability among the country's largest public corporations. Based on voluntarily disclosed information, the Index measures performance in three areas: disclosure, political spending policy, and board oversight. The Center gathers contribution information and information about transparency and accountability policies directly from companies’ web sites. ",

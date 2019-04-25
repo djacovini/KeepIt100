@@ -25,14 +25,7 @@ const images = [
   ];
 
 class Works extends Component {
-    constructor(props) {
-        super(props);
-    
-        this.state = {
-          photoIndex: 0,
-          isOpen: false
-        };
-      }
+
 
     render() {
         // const { photoIndex, isOpen } = this.state;

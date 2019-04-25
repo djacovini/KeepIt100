@@ -29,7 +29,7 @@ class HomeOne extends Component {
             {/* Services: src/components/Services.jsx */}
             <Services />
             {/* WelcomeServices: src/components/WelcomeServices.jsx */}
-            <WelcomeServices />
+            {/* <WelcomeServices /> */}
             {/* Works: src/components/Works.jsx */}
             <Works />
             {/* About: src/components/About.jsx */}
@@ -38,9 +38,9 @@ class HomeOne extends Component {
             {/* Team: src/components/Team.jsx */}
             <Team />
             {/* Blog: src/components/Blog.jsx */}
-            <Blog />
+            {/* <Blog /> */}
             {/* VideoArea: src/components/VideoArea.jsx */}
-            <VideoArea />
+            {/* <VideoArea /> */}
             {/* Pricing: src/components/Pricing.jsx */}
             {/* <Pricing /> */}
             {/* FunFacts: src/components/FunFacts.jsx */}
