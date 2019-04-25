@@ -33,7 +33,7 @@ class NavBar extends Component {
     return (
         <React.Fragment>
             {/* Start Top Header */}
-            <div className="top-header">
+            <div className="top-header bg-dark">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7 col-lg-7">
@@ -135,7 +135,7 @@ class NavBar extends Component {
                                     </Link>
                                 </Nav.Item>
 
-                                <Nav.Item>
+                                {/* <Nav.Item>
                                     <Link
                                         activeclass="active"
                                         to="works"
@@ -148,7 +148,7 @@ class NavBar extends Component {
                                     >
                                         Works
                                     </Link>
-                                </Nav.Item>
+                                </Nav.Item> */}
 
                                 <Nav.Item>
                                     <Link
@@ -180,7 +180,7 @@ class NavBar extends Component {
                                     </Link>
                                 </Nav.Item>
 
-                                <Nav.Item>
+                                {/* <Nav.Item>
                                     <Link
                                         activeclass="active"
                                         to="blog"
@@ -193,7 +193,7 @@ class NavBar extends Component {
                                     >
                                         Blog
                                     </Link>
-                                </Nav.Item>
+                                </Nav.Item> */}
 
                                 <Nav.Item>
                                     <Link
