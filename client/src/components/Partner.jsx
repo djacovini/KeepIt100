@@ -17,7 +17,7 @@ class Partners extends Component {
         //Partner loop END
         return (
             <React.Fragment>
-                <section className="our-partners ptb-100">
+                <section className="our-partners ptb-100 bg-dark">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8 offset-lg-2 text-center">
