@@ -1,4 +1,24 @@
+// var mysql = require("mysql2ç");
+
+// let con = mysql.createConnection({
+//   host: "localhost",
+//   user: "root",
+//   password: "Amelia309",
+//   database: "exampledb"
+// });
+
+// con.connect(function(err) {
+//   if (err) throw err;
+//   con.query("SELECT * FROM scores2018", function (err, result, fields) {
+//     if (err) throw err;
+//     console.log(result);
+//     alert(result);
+//   });
+// });
+
 module.exports = {
+
+  
     development: {
       username: "root",
       // make sure to set this env variable in your .env file
@@ -28,4 +48,7 @@ module.exports = {
     host: process.env.PROD_DB_HOST,
     dialect: "mysql"
     }
+    
+
+
   };
