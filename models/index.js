@@ -1,9 +1,9 @@
 "use strict";
 
-//var fs = require("fs");
-//var path = require("path");
+var fs = require("fs");
+var path = require("path");
 var Sequelize = require("sequelize");
-//var basename = path.basename(module.filename);
+var basename = path.basename(module.filename);
 var env = process.env.NODE_ENV || "development";
 // Using the Sequelize CLI has this file point to config.json by default
 // So to load our custom config all we need to do is edit this file
@@ -21,22 +21,22 @@ if (config.use_env_variable) {
   );
 }
 
-// fs.readdirSync(__dirname)
-//   .filter(function(file) {
-//     return (
-//       file.indexOf(".") !== 0 && file !== basename && file.slice(-3) === ".js"
-//     );
-//   })
-//   .forEach(function(file) {
-//     var model = sequelize.import(path.join(__dirname, file));
-//     db[model.name] = model;
-//   });
+fs.readdirSync(__dirname)
+  .filter(function(file) {
+    return (
+      file.indexOf(".") !== 0 && file !== basename && file.slice(-3) === ".js"
+    );
+  })
+  .forEach(function(file) {
+    var model = sequelize.import(path.join(__dirname, file));
+    db[model.name] = model;
+  });
 
-// Object.keys(db).forEach(function(modelName) {
-//   if (db[modelName].associate) {
-//     db[modelName].associate(db);
-//   }
-// });
+Object.keys(db).forEach(function(modelName) {
+  if (db[modelName].associate) {
+    db[modelName].associate(db);
+  }
+});
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
