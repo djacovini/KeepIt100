@@ -23,7 +23,7 @@ module.exports = {
       username: "root",
       // make sure to set this env variable in your .env file
       password: process.env.LOCAL_MYSQL_PASSWORD,
-      database: "exampledb",
+      database: "cpa_zickdb",
       host: "localhost",
       dialect: "mysql"
     },
