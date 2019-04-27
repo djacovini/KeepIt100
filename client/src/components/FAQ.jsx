@@ -6,7 +6,7 @@ import { Accordion, AccordionItem } from "react-sanfona";
 import ScrollAnimation from 'react-animate-on-scroll';
 import Chart from 'react-google-charts';
 
-import API from '../../../util/API';
+import API from '../util/API';
 
 
 class FAQ extends Component {
@@ -24,13 +24,13 @@ class FAQ extends Component {
     loadCompany = () => {
         API.getCompany()
             .then(res =>
-                this.setState({ companies: res.data, ticker: "", company: "", score: "" }),
-                alert(res)
+            //    this.setState({ companies: res.data, ticker: "", company: "", score: "" }),
+                alert(res.data)
                 
             )
             .catch(err => console.log(err));
-            console.log(res);
-            alert(res);
+            //console.log(res.data);
+            //alert(res.data);
     };
     
 

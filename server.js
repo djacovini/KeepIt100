@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 // const passport = require("passport");
-const routes = require("./routes");
+//const routes = require("./routes");
 const app = express();
 const db = require("./models");
 const PORT = process.env.PORT || 4000;
@@ -12,6 +12,8 @@ const PORT = process.env.PORT || 4000;
 //   res.render("about")
 // })
 
+// Routes
+require("./routes")(app);
 
 
 // Define middleware here

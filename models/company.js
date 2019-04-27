@@ -1,7 +1,7 @@
 module.exports = function(sequelize, DataTypes) {
   var Company = sequelize.define("Company", {
 
-    id: DataTypes.INTEGER,
+    //id: DataTypes.INTEGER,
     ticker: DataTypes.STRING,
     company: DataTypes.STRING,
     score: DataTypes.DECIMAL,
