@@ -20,8 +20,24 @@ app.get("/api/companies/:id", function(req, res) {
     res.json(dbCompany);
   });
 });
-}
 
+
+app.get("/api/companies", function(req, res) {
+  // var query = {};
+  // if (req.query.User_id) {
+  //   query.UserId = req.query.user_id;
+  // }
+  // // Here we add an "include" property to our options in our findAll query
+  // We set the value to an array of the models we want to include in a left outer join
+  // In this case, just db.Author
+  db.Company.findAll({}).then(function(dbCompany) {
+    console.log("this route works");
+    console.log(dbCompany);
+    res.json(dbCompany);
+  });
+});
+
+}
 // API Routes
 //router.use("/api", apiRoutes);
 
