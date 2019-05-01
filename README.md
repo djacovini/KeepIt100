@@ -1,9 +1,12 @@
-#KEEP IT 100
+# KEEP IT 100
 A mobile phone app aimed at the conscientious consumer.
-[KEEP IT 100 on Heroku](https://keep-it-100.herokuapp.com/)
+
+[KEEP IT 100 on deployed on Heroku](https://keep-it-100.herokuapp.com/)
+
 [JSON Data from MySQL screen recording](https://drive.google.com/file/d/1dZiwozbNs0JdGMopLoO35oQ91SczsEfY/view)
 
-##Summary:
+## Summary
+
 KEEP IT 100 will empower consumers to make informed decisions by offering convenient access to a powerful database tracking political spending by corporations. It uses a React front-end, Node back-end, with access to a SQL database of the CPA-Zicklin Index.
 
 KEEP IT 100 exists to link two seemingly disparate aspects of our lives as American citizens.
@@ -15,40 +18,64 @@ Inaccessible or inconveniently accessible data is unempowered data.  It reports 
 
 KEEP IT 100’s goal is to do for retail consumerism what ESG funds did for retail investing.  Don’t bottle-up your disappointment at the present state of things- express your dismay with your shopping habits!  After all, it is the profit resulting from your purchases that allow these companies to wield political influence politics.
 
-#TEAM
-[Eric Capone] (https://github.com/capone625), [David Jacovini](https://github.com/djacovini/KeepIt100), and [Andrew Mayo](https://github.com/mayo267)
+## TEAM
+* [Eric Capone](https://github.com/capone625)
+* [David Jacovini](https://github.com/djacovini/KeepIt100)
+* [Andrew Mayo](https://github.com/mayo267)
 
-
+# Packages & Dependencies
 Built on ReactJS | Bootstrap 4.x | HTML5 | CSS3 | Animate CSS | IcoFont Free Icons | Google Fonts |
 
-#Dependencies
 (https://www.npmjs.com/package/animate.css?activeTab=versions) Animate Css
+
 (https://www.npmjs.com/package/axios) Axios
+
 (https://getbootstrap.com/) Bootstrap
+
 (https://mdbootstrap.com/docs/react/) MDB React
 
 (https://popper.js.org/) Popper JS
+
 (https://www.npmjs.com/package/prop-types) Prop Type
+
 (https://reactjs.org/) React
+
 (https://www.npmjs.com/package/react-animate-on-scroll) React-Animate-On-Scroll
+
 (https://react-bootstrap.github.io/) React Bootstrap 
 
 (https://www.npmjs.com/package/react-bootstrap4-form-validation) React Bootstrap4 Form Validation
+
 (https://www.npmjs.com/package/mdbreact) React Bootstrap with Material Design
+
 (https://www.npmjs.com/package/react-countup/v/2.0.0) React CountUp
+
 (https://reactjs.org/docs/react-dom.html)ReactDOM
+
 (https://www.npmjs.com/package/react-icofont) React wrapper for the icofont project from JoomShaper
-(https://www.npmjs.com/package/react-image-lightbox) React Image Lightbox
+
+(https://www.npmjs.com/package/react-image-lightbox) React Image Lightbox 
+
 (https://www.npmjs.com/package/react-modal-video) React Modal Video
+
 (https://www.npmjs.com/package/react-owl-carousel3) React Owl Carousel3
+
 (https://www.npmjs.com/package/react-page-loading) React Page Loading
+
 (https://www.npmjs.com/package/react-router-bootstrap) React Router Bootstrap
+
 (https://www.npmjs.com/package/react-router-dom) React-Router-Dom
+
 (https://www.npmjs.com/package/react-sanfona) React-Sanfona
+
 (https://www.npmjs.com/package/react-scripts) React-Scripts
+
 (https://www.npmjs.com/package/react-scroll) React Scroll
+
 (https://www.npmjs.com/package/react-scroll-up-button) React Scroll Up Button
+
 (https://www.npmjs.com/package/react-visibility-sensor) React Visibility Sensor
+
 (https://www.npmjs.com/package/react-transition-group) React Transition Group
 
 
