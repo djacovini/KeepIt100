@@ -1,7 +1,7 @@
 # KEEP IT 100
 A mobile phone app aimed at the conscientious consumer.
 
-[KEEP IT 100 on deployed on Heroku](https://keep-it-100.herokuapp.com/)
+[KEEP IT 100 is deployed on Heroku](https://keep-it-100.herokuapp.com/)
 
 [JSON Data from MySQL screen recording](https://drive.google.com/file/d/1dZiwozbNs0JdGMopLoO35oQ91SczsEfY/view)
 
@@ -22,6 +22,9 @@ KEEP IT 100’s goal is to do for retail consumerism what ESG funds did for reta
 * [Eric Capone](https://github.com/capone625)
 * [David Jacovini](https://github.com/djacovini/KeepIt100)
 * [Andrew Mayo](https://github.com/mayo267)
+
+## DATA RESOURCE
+[Center for Political Accountability](http://www.trackyourcompany.org)
 
 # Packages & Dependencies
 Built on ReactJS | Bootstrap 4.x | HTML5 | CSS3 | Animate CSS | IcoFont Free Icons | Google Fonts |
